@@ -6,6 +6,15 @@
 
 </head>
 <body>
+
+	<section class="mobile_heads">
+		<div>
+			<img src="images/logo.png" alt="Indiana Daily Student"/>
+		</div>
+		<nav>
+			<a onclick="show_menu('menu')" href="#">Menu</a>
+		</nav>
+	</section>
 	<section class="heads">
 <!-- 		<div class="social">
 			<img src="images/mail.png"/>
@@ -14,7 +23,7 @@
 			<img src="images/insta.png"/>
 			<img src="images/pinterest.png"/>
 		</div> -->
-		<nav class="flex flex-nav">
+		<nav id="menu" class="flex-nav">
 			<div>
 				<img src="images/logo.png" alt="Indiana Daily Student"/>
 			</div>
@@ -182,4 +191,30 @@
 		</ul> -->
 	</footer>
 </body>
+
+<script type="text/javascript">
+
+	function show_menu(id) {
+		var e = document.getElementById(id);
+		if(e.style.display == 'none'){
+			e.style.display = 'flex';
+		}
+		else
+			e.style.display = 'none';
+		}
+
+	window.onresize = function(event) {
+		var menu = document.getElementById('menu')
+		if (event.currentTarget.outerWidth > 875){
+			menu.style.display = "flex";
+			menu.childNodes.style.display = "inline-block"; //I was trying to use this line to fix the bug that is causing the stacked menu to display when resizing the screen.
+		}
+		else {
+			menu.style.display = "none"
+		}
+	}
+
+
+</script>
+
 </html>
