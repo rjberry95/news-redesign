@@ -1,0 +1,172 @@
+/** GENERAL STYLES **/
+body {
+	padding: 0 5%;
+	font-family: Verdana, Arial, Sans-Serif;
+}
+
+.flex {
+	display: flex;
+}
+
+h2{
+	background-color: #c4161c;
+	color: white;
+	padding: 5px 10px;
+	text-align: center;
+	font-size: 16pt;
+	/*font-weight: bold;*/
+}
+
+h1 {
+	font-size: 20pt;
+	font-weight: bold;
+}
+
+h5{
+	color: #c4161c;
+	font-size: .8em;
+	margin: 5px 0px;
+}
+
+/*.head  {
+	overflow: auto;
+}
+
+.social {
+	float: right;
+}*/
+
+/** HEADER STYLES **/
+
+.social div {
+	width: 5%;
+}
+
+.flex-nav{
+	justify-content: space-around;
+	align-items: flex-end;
+}
+
+.flex-nav img {
+	flex: 1;
+	height: 20%;
+}
+
+.flex-nav a {
+	flex: 2;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	background-color: #c4161c;
+	padding: 10px;
+	text-align: center;
+}
+
+nav a:hover{
+	background-color: #870000;
+}
+
+/** BREAKING NEWS STYLES **/
+.breaking {
+	margin: 20px 0;
+	align-items: baseline;
+	border: 1px solid #c4161c;;
+}
+
+/*.breaking h2{
+	background-color: #c4161c;
+	color: white;
+	padding: 5px 10px;
+	text-align: center;
+}
+*/
+.breaking h3{
+	padding: 0 5px;
+}
+
+
+
+/** MAIN STYLES - LEFT **/
+.flex-main{
+	justify-content: baseline;
+}
+.left{
+	flex: 3;
+	/*margin-right: 20px;*/
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+}
+
+article div{
+	flex: 2;
+}
+
+article img {
+	width: 60%;
+	display: block;
+	margin: auto;
+}
+
+article p {
+	flex: 1;
+}
+
+.flex-container {
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.group {
+	width: 30%;
+	margin: 20px 0;
+	border: 1px solid #c4161c;
+}
+
+.group h3{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.topic img {
+	width: 100%;
+}
+
+/** MAIN STYLES - RIGHT **/
+.right {
+	flex: 1;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+}
+
+.story{
+	margin: 10px 0;
+}
+
+.stamp {
+	justify-content: space-around;
+}
+
+.stories{
+	padding: 0px 10px;
+	margin-bottom: 10px;
+}
+
+.stories li {
+	margin: 5px 0;
+}
+
+.cover img{
+	display: block;
+	margin: auto;
+}
+
+/** FOOTER **/
+footer {
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
