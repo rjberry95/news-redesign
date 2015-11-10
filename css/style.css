@@ -177,6 +177,13 @@ footer {
 	margin-top: 50px;
 }
 
+/*@media (min-width: 875px){
+	.right{
+		display: flex;
+	}
+
+}*/
+
 
 
 
@@ -196,12 +203,13 @@ footer {
 	.mobile_heads img{
 		width: 100%;
 	}
-	mobile_heads a
+	/*mobile_heads a
 		width: 80%;
-	}
+	}*/
 
 	.flex-nav{
 		/*display: flex;*/
+		display: none;
 		flex-direction: column;
 		justify-content: space-around;
 		align-items: stretch;
@@ -217,6 +225,7 @@ footer {
 
 	.right{
 		display: none;
+		/*background-color: gray;*/
 	}
 
 	article p{
