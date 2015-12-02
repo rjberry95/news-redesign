@@ -24,9 +24,16 @@
 			<img src="images/pinterest.png"/>
 		</div> -->
 		<nav id="menu" class="flex-nav">
-			<div>
+			<!-- <div>
 				<img src="images/logo.png" alt="Indiana Daily Student"/>
+			</div> -->
+			<div>
+				<div class="logo">
+					<h1>I</h1><h1>D</h1><h1>S</h1>
+				</div>
+				<h3>Indiana Daily Student</h3>
 			</div>
+			
 			<a href="#">campus</a>
 			<a href="#">region</a>
 			<a href="#">sports</a>
@@ -62,9 +69,83 @@
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</article>
+				
 			</div>
-
-			<div class="topic flex flex-container">
+			<div class="subhead">
+				<div class="subgroup">
+					<a href="#"><img src="images/powwow.jpg" /></a>
+					<div class="desc">
+						<h2>Campus</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</div>
+				<div class="subgroup">
+					<a href="#"><img src="images/region.jpg"/></a>
+					<div class="desc">
+						<h2>Region</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</div>
+				<div class="subgroup">
+					<a href="#"><img src="images/soccer.jpg"/></a>
+					<div class="desc">
+						<h2>Sports</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</div>
+				<div class="subgroup">
+					<a href="#"><img src="images/art.jpg"/></a>
+					<div class="desc">
+						<h2>Arts</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</div>
+				<div class="subgroup">
+					<a href="#"><img src="images/iudm.jpg"/></a>
+					<div class="desc">
+						<h2>Most Commented</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</div>
+				<div class="subgroup">
+					<a href="#"><img src="images/iudm2.jpg"/></a>
+					<div class="desc">
+						<h2>Special Publications</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</div>
+			</div>
+<!-- 			<div class="topic flex flex-container">
 				<div class="group">
 					<h2>Campus</h2>
 					<img src="images/powwow.jpg" />
@@ -95,7 +176,7 @@
 					<img src="images/iudm2.jpg"/>
 					<h3>Headline</h2>
 				</div>
-			</div>
+			</div> -->
 		</section>
 
 
@@ -193,7 +274,6 @@
 </body>
 
 <script type="text/javascript">
-
 	function show_menu(id) {
 		var e = document.getElementById(id);
 		if(e.style.display == 'none'){
@@ -202,7 +282,6 @@
 		else
 			e.style.display = 'none';
 		}
-
 	window.onresize = function(event) {
 		var menu = document.getElementById('menu')
 		if (event.currentTarget.outerWidth > 875){
@@ -212,8 +291,6 @@
 			menu.style.display = "none"
 		}
 	}
-
-
 </script>
 
 </html>

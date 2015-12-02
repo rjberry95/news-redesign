@@ -2,6 +2,7 @@
 body {
 	padding: 0 5%;
 	font-family: Verdana, Arial, Sans-Serif;
+	color: #37474F;
 }
 
 .flex {
@@ -31,12 +32,22 @@ h5{
 /*.head  {
 	overflow: auto;
 }
-
 .social {
 	float: right;
 }*/
 
 /** HEADER STYLES **/
+
+.logo{
+	display: flex;
+	justify-content: space-between;
+	background-color:#CC3333;
+	color: #fafafa;
+}
+
+.logo h1{
+	font-size: 5em;
+}
 
 .social div {
 	width: 5%;
@@ -66,13 +77,18 @@ h5{
 nav a {
 	text-decoration: none;
 	color: white;
-	background-color: #c4161c;
+	background-color: #CC3333;
 	padding: 10px;
 	text-align: center;
 }
 
 nav a:hover{
 	background-color: #870000;
+}
+
+nav h3 {
+	background-color:#CC3333;
+	color: #FAfAFA;
 }
 
 /** BREAKING NEWS STYLES **/
@@ -107,6 +123,10 @@ nav a:hover{
 	justify-content: space-between;
 }
 
+.head{
+	background-color: #fafafa;
+}
+
 article div{
 	flex: 2;
 }
@@ -125,6 +145,57 @@ article p {
 	flex-flow: row wrap;
 	justify-content: space-around;
 }
+
+.subhead{
+/*	display: flex;
+	flex-direction: column;
+	justify-content: space-between;*/
+	/*align-items: flex-end;*/
+	padding: 10px;
+	overflow: auto;
+	/*border: 1px solid #CC3333;*/
+}
+
+.subgroup{
+	background-color: green;
+	/*width: 12%;*/
+	/*transition: width 1s, height 1s;*/
+	/*display: flex;*/
+
+}
+
+.subgroup a{
+	width: 20%;
+}
+
+.subgroup img{
+	width: 20%;
+	float: left;
+}
+
+.subgroup:hover{
+	/*width: 25%;*/
+}
+
+.subgroup:hover > .desc2{
+	visibility: visible;
+}
+
+.desc{
+	/*flex: 4;*/
+	float: right;
+	/*position: relative;*/
+	top: 0;
+	/*width: 65%;*/
+	margin: 10px;
+	/*align-self: flex-top;*/
+	/*visibility: hidden;*/
+}
+
+.desc2{
+	visibility: hidden;
+}
+
 
 .group {
 	width: 30%;
@@ -181,7 +252,6 @@ footer {
 	.right{
 		display: flex;
 	}
-
 }*/
 
 
@@ -233,4 +303,3 @@ footer {
 	}
 
 }
-
